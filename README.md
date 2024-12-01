@@ -1,6 +1,6 @@
 # React Quiz App 📝
 
-React Quiz App is a React application that allows users to take quizzes on various topics. It uses a local JSON server to fetch quiz questions and displays them in an interactive format. This app specifically uses both functional and class components to manage state and interactions, providing hands-on experience with different React paradigms.
+React Quiz App is a React application that allows users to take quizzes on various topics. It uses a local JSON server to fetch quiz questions and displays them in an interactive format. This app specifically uses functional components and the useReducer hook to manage state and interactions, providing hands-on experience with modern React paradigms.
 
 ## 📖 About This Project
 
@@ -24,13 +24,11 @@ This project helped reinforce foundational and intermediate React concepts throu
 
 While developing React Quiz App, I gained hands-on experience with:
 
-- Custom hooks for data fetching and API integration.
+- useReducer for state management.
 - Component hierarchy and reusability.
-- State management with useState and useReducer.
 - Conditional rendering and error handling.
 - Enhancing UX with loading indicators and error messages.
-- Using both functional and class components.
-- Persisting state with localStorage.
+- Fetching data from a local JSON server.
 
 ## 🛠️ How to Run
 
