@@ -3,7 +3,7 @@ import { useQuiz } from '../context/QuizContext';
 
 const Options = () => {
   const { questions, dispatch, answer, index } = useQuiz();
-  let question = questions[index];
+  const question = questions.at(index);
   const hasAnswered = answer !== null;
   return (
     <div className='options'>

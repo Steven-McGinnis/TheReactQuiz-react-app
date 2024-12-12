@@ -4,7 +4,7 @@ import { useQuiz } from '../context/QuizContext';
 
 const Question = () => {
   const { questions, index } = useQuiz();
-  let question = questions[index];
+  const question = questions.at(index);
   return (
     <div>
       <h4>{question.question}</h4>

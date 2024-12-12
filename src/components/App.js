@@ -14,7 +14,7 @@ import Timer from './Timer';
 import { useQuiz } from '../context/QuizContext';
 
 export default function App() {
-  const { questions, status } = useQuiz();
+  const { status } = useQuiz();
 
   return (
     <div className='app'>

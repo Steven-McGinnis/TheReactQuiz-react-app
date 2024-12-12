@@ -101,16 +101,17 @@ const QuizProvider = ({ children }) => {
   return (
     <QuizContext.Provider
       value={{
-        questions,
-        status,
-        index,
         answer,
-        points,
         highscore,
-        secondsRemaining,
-        dispatch,
-        numQuestions,
+        index,
         maxPossiblePoints,
+        numQuestions,
+        points,
+        questions,
+        secondsRemaining,
+        status,
+
+        dispatch,
       }}>
       {children}
     </QuizContext.Provider>
